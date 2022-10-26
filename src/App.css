@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #101828;
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img-container #profile__img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-img-container #profile__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-img-container div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profile-img-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img-container:hover {
+  outline: 5.5px solid #ebe9fe;
+}
+
+.profile-img-container:hover div {
+  background-color: rgba(52, 64, 84, 0.75);
+}
+
+.profile-img-container div > * {
+  color: #f9fafb;
+  align-self: end;
+  padding-bottom: 4px;
+  display: none;
+}
+.profile-img-container:hover div > * {
+  display: block;
+}
+
+.avatar-share-button {
+  border: 1px dotted #d0d5dd;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-share-button .icon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.link-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-section .link-containers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #eaecf0;
+}
+
+.link-section .link-containers a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #101828;
+}
+
+.link-section .link-containers:default {
+  background-color: #eaecf0;
+}
+
+.link-section .link-containers:hover {
+  background-color: #d0d5dd;
+}
+
+.link-section .link-containers:focus {
+  background-color: #eaecf0;
+}
+
+.link-section .link-containers:disabled {
+  background-color: #fcfcfd;
+}
