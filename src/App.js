@@ -117,18 +117,29 @@ function App() {
 
         <div className="link-section">
           {user_profile_details.map((item) => (
-            <div key={item.id} className="link-containers">
-              <a
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                id={item.id_ ? item.id_ : ""}
-                title={item.title ? item.title : ""}
-                style={{ textAlign: "center" }}
-              >
+            <a
+              href={item.url}
+              className="link-containers"
+              target="_blank"
+              rel="noopener noreferrer"
+              id={item.id_ ? item.id_ : ""}
+              title={item.title ? item.title : ""}
+              key={item.id}
+              style={{ textAlign: "center" }}
+            >
+              <div key={item.id}>
+                {/* <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id={item.id_ ? item.id_ : ""}
+                  title={item.title ? item.title : ""}
+                  style={{ textAlign: "center" }}
+                >
+                </a> */}
                 {item.name_}
-              </a>
-            </div>
+              </div>
+            </a>
           ))}
         </div>
 
