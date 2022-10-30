@@ -1,7 +1,7 @@
 import "./App.css";
 
 // IMAGES
-import prof_img from "./images/image_search_1608801989309.jpg";
+import prof_img from "./images/Snapchat-1000942029.jpg";
 import I4G from "./images/I4G.png";
 import Zuri from "./images/Zuri.Internship_Logo.png";
 
