@@ -110,7 +110,7 @@ function App() {
             </div>
             <h3 id="twitter">henry96900698</h3>
             <h3 id="slack" style={{ display: "none" }}>
-              Uche
+              henzyd
             </h3>
           </div>
         </div>
