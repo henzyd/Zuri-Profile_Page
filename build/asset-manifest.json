@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.621d5633.css",
+    "main.js": "/static/js/main.e1d8fa87.js",
+    "static/media/Snapchat-1000942029.jpg": "/static/media/Snapchat-1000942029.271ea59ff17c33012007.jpg",
+    "index.html": "/index.html",
+    "main.621d5633.css.map": "/static/css/main.621d5633.css.map",
+    "main.e1d8fa87.js.map": "/static/js/main.e1d8fa87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.621d5633.css",
+    "static/js/main.e1d8fa87.js"
+  ]
+}
