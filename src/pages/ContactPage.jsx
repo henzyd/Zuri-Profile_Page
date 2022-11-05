@@ -18,13 +18,6 @@ const ContactPage = () => {
   }
 
   const messageArea = document.querySelector("#message");
-  // messageArea.addEventListener("focus", () => {
-  //   if (messageArea.value.length === 0) {
-  //     messageArea.style.borderColor = "#f89687";
-  //     messageArea.style.boxShadow =
-  //       "0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc";
-  //   }
-  // });
 
   function onFormSubmit(e) {
     e.preventDefault();
