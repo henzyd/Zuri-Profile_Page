@@ -213,6 +213,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  /* display: none; */
   max-width: 1200px;
   padding: 2rem 0 2rem 0;
 }
@@ -276,6 +277,11 @@ footer p {
 
   .avatar-share-button {
     margin-right: 0;
+  }
+
+  #twitter,
+  #slack {
+    font-size: 18px;
   }
 }
 

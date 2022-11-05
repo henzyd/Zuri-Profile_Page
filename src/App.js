@@ -1,8 +1,8 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import ProfilePage from "./pages/ProfilePage";
-import ContactPage from "./pages/ContactPage";
+import ProfilePage from "./Pages/ProfilePage";
+import ContactPage from "./Pages/ContactPage";
 
 function App() {
   const user_profile_details = [
