@@ -8,8 +8,6 @@ const ContactPage = () => {
 
   const [btn, setBtn] = useState("disabled");
   const [messageError, setMessageError] = useState("hidden");
-  // const [emailError, setEmailError] = useState("hidden");
-  // const [btnCursor, setBtnCursor] = useState("cursor-pointer");
 
   function onChecked(e) {
     if (e.target.checked === true) {
